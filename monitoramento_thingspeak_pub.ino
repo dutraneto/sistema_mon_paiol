@@ -12,7 +12,7 @@ SoftwareSerial sim900 = SoftwareSerial(2,3);
 // variavel DHT
 DHT dht;
 // meu apiwrite thingspeak
-String apiKey = "5MEP0V1O8ESKG5XH";
+String apiKey = "XXXXXXXXXXXXXXXXXXXXX";
 // configs cartao SIM vivo
 String pwn = "zap.vivo.com.br";
 String user = "vivo";
