@@ -156,7 +156,7 @@ O comando "AT" foi executado so para verif se o sim900 acordou
 // funcao dormir ===============================================================
 void dormir(){
   // laço principal que configura a quant de minutos
-  for (int i=0; i<10; i++){
+  for (int i=0; i<9; i++){
 
     sim900.println("AT+CPOWD=0");
     delay(1000);
